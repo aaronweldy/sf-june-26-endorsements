@@ -4,12 +4,14 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width,initial-scale=1" />
         <title>{{ site.title }}</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=DM+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet" />
         <link rel="stylesheet" href="index.css" />
     </head>
     <body>
         <header>
             <h1>{{ site.page_title }}</h1>
-            <div class="sub">{{ site.org_count }} organizations · regenerated {{ site.regenerated }}</div>
         </header>
         <nav class="toc">
             <strong style="margin-right: 8px">Jump to:</strong>
@@ -22,44 +24,6 @@
             <a href="#measures">Props A–D</a>
         </nav>
         <main>
-            <section>
-                <div class="legend">
-                    Each candidate has a distinct color within a race — scan a
-                    column for consensus vs. splits. Color key sits above each
-                    table. Org names link to that org's June 2026 endorsement
-                    page. &nbsp;<span
-                        class="swatch"
-                        style="background: var(--yes-bg); color: var(--yes-fg)"
-                        >YES</span
-                    >
-                    <span
-                        class="swatch"
-                        style="background: var(--no-bg); color: var(--no-fg)"
-                        >NO</span
-                    >
-                    <span
-                        class="swatch"
-                        style="
-                            background: var(--none-bg);
-                            color: var(--none-fg);
-                        "
-                        >X</span
-                    >=no endorsement located/not in retrievable snapshot
-                    <span
-                        class="swatch"
-                        style="
-                            background: var(--noend-bg);
-                            color: var(--noend-fg);
-                            font-style: italic;
-                        "
-                        >No Endorse¹</span
-                    >=formal no-rec · <code>¹</code> formal no-rec &nbsp;<code
-                        >²</code
-                    >
-                    dual/ranked &nbsp;<code>³</code> early/preliminary
-                    &nbsp;<code>⁴</code> possibly stale
-                </div>
-            </section>
             {%- for sg in races %}
             <section id="{{ sg.section }}">
                 <h2>{{ sg.label }}</h2>
@@ -73,42 +37,6 @@
                 {%- endif %}
             </section>
             {%- endfor %}
-            <section>
-                <div class="meta">
-                    <strong>Sources &amp; methodology.</strong> Endorsements
-                    assembled from direct fetches of each organization's
-                    published June 2, 2026 endorsement page, supplemented by
-                    Peter Xu's
-                    <a
-                        href="https://sfendorsements.com/"
-                        target="_blank"
-                        rel="noopener"
-                        >SF Endorsements aggregator</a
-                    >
-                    (34 orgs as of May 16, 2026), the
-                    <a
-                        href="https://en.wikipedia.org/wiki/2026_California_gubernatorial_election"
-                        target="_blank"
-                        rel="noopener"
-                        >Wikipedia 2026 CA gubernatorial endorsements list</a
-                    >, and
-                    <a
-                        href="https://fullertonobserver.com/2026/05/11/ca-2026-primary-ballot-endorsements-resource-info/"
-                        target="_blank"
-                        rel="noopener"
-                        >Fullerton Observer's statewide group compilation</a
-                    >. <br />
-                    A blank cell ("X") means the org has not publicly endorsed
-                    in that race (or the endorsement was not in the retrievable
-                    snapshot). "No endorsement¹" = formal vote of no
-                    recommendation. Mission Local and SF Standard are reporting
-                    outlets that don't endorse. Notable not-yet-published /
-                    not-retrievable slates: SF Chronicle (governor and AG
-                    missing from aggregator), UESF (only Chan + Cheung
-                    confirmed). DSA SF doesn't appear to have published a
-                    SF-specific June 2026 slate.
-                </div>
-            </section>
         </main>
         <script>
             (function () {

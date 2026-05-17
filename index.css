@@ -1,37 +1,36 @@
 :root {
-    --bg: #fafafa;
-    --fg: #1a1a1a;
-    --muted: #666;
-    --line: #d0d0d0;
-    --accent: #0b5fff;
-    --c1-bg: #cfe3ff;
-    --c1-fg: #0d3b80;
-    --c2-bg: #ffd9b3;
-    --c2-fg: #8a3d00;
-    --c3-bg: #e0c8f0;
-    --c3-fg: #4a1a6e;
-    --c4-bg: #b6e5db;
-    --c4-fg: #0a4a3f;
-    --c5-bg: #ffc8d6;
-    --c5-fg: #8a1240;
-    --c6-bg: #fff1a8;
-    --c6-fg: #5a4500;
-    --yes-bg: #a8e6b0;
-    --yes-fg: #0a4d18;
-    --no-bg: #ffb8b8;
-    --no-fg: #7a0d0d;
-    --none-bg: #f3f3f3;
-    --none-fg: #5a5a5a;
-    --noend-bg: #eef0f3;
-    --noend-fg: #555;
+    --bg: #f8f6f2;
+    --fg: #1c1c1c;
+    --muted: #7a7268;
+    --line: #d4cec6;
+    --accent: #3c3830;
+    --link: #3a5070;
+    --c1-bg: #d8e4f0;
+    --c1-fg: #1a3050;
+    --c2-bg: #eeddd0;
+    --c2-fg: #5a2e10;
+    --c3-bg: #e4d8ee;
+    --c3-fg: #3d1a5a;
+    --c4-bg: #d0e8e0;
+    --c4-fg: #0a3830;
+    --c5-bg: #eedad8;
+    --c5-fg: #5a1820;
+    --c6-bg: #eee8c8;
+    --c6-fg: #4a3800;
+    --yes-bg: #d8e8d0;
+    --yes-fg: #1a4018;
+    --no-bg: #eed8d8;
+    --no-fg: #5a1818;
+    --none-bg: #e8e4dc;
+    --none-fg: #4a4840;
+    --noend-bg: #edeae4;
+    --noend-fg: #4a4840;
 }
 * {
     box-sizing: border-box;
 }
 body {
-    font-family:
-        -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-        Helvetica, Arial, sans-serif;
+    font-family: 'DM Sans', system-ui, -apple-system, sans-serif;
     background: var(--bg);
     color: var(--fg);
     margin: 0;
@@ -39,24 +38,23 @@ body {
     line-height: 1.45;
 }
 header {
-    background: #111;
-    color: #fff;
-    padding: 14px 22px;
-    border-bottom: 4px solid var(--accent);
+    background: var(--bg);
+    color: var(--fg);
+    padding: 22px 28px 18px;
+    border-bottom: 1px solid #b0a898;
 }
 header h1 {
     margin: 0;
-    font-size: 20px;
-}
-header .sub {
-    font-size: 12px;
-    color: #bbb;
-    margin-top: 4px;
+    font-family: 'Cormorant Garamond', Georgia, serif;
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    color: var(--fg);
 }
 nav.toc {
-    background: #fff;
+    background: var(--bg);
     border-bottom: 1px solid var(--line);
-    padding: 8px 22px;
+    padding: 8px 28px;
     position: sticky;
     top: 0;
     z-index: 5;
@@ -68,15 +66,18 @@ nav.toc a {
     text-decoration: none;
     color: var(--accent);
 }
+nav.toc a:hover {
+    text-decoration: underline;
+}
 main {
     max-width: 1500px;
     margin: 0 auto;
-    padding: 14px 22px 30px;
+    padding: 14px 28px 40px;
 }
 section {
-    background: #fff;
+    background: var(--bg);
     border: 1px solid var(--line);
-    border-radius: 8px;
+    border-radius: 4px;
     padding: 12px 18px;
     margin: 14px 0;
     scroll-margin-top: 90px;
@@ -90,32 +91,25 @@ caption {
     font-weight: 500;
 }
 h2 {
-    font-size: 17px;
-    margin: 2px 0 8px;
-    border-bottom: 2px solid var(--accent);
-    padding-bottom: 4px;
+    font-family: 'Cormorant Garamond', Georgia, serif;
+    font-size: 22px;
+    font-weight: 700;
+    margin: 2px 0 10px;
+    border-bottom: 1px solid var(--line);
+    padding-bottom: 6px;
+    letter-spacing: -0.01em;
 }
 h3 {
-    font-size: 14.5px;
+    font-family: 'Cormorant Garamond', Georgia, serif;
+    font-size: 17px;
+    font-weight: 700;
     margin: 16px 0 4px;
-}
-.legend {
-    font-size: 12px;
-    background: #fffbe6;
-    border: 1px solid #f1d97a;
-    border-radius: 6px;
-    padding: 8px 12px;
-    margin: 6px 0 10px;
-}
-.legend code {
-    background: #f1f1f1;
-    padding: 1px 5px;
-    border-radius: 3px;
+    letter-spacing: -0.01em;
 }
 .swatch {
     display: inline-block;
     padding: 2px 8px;
-    border-radius: 4px;
+    border-radius: 3px;
     font-weight: 600;
     font-size: 11.5px;
     margin: 1px 3px;
@@ -125,18 +119,18 @@ h3 {
 }
 .swatch:hover {
     transform: scale(1.08);
-    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
 }
 .swatch.locked {
-    outline: 3px solid var(--accent);
+    outline: 2px solid var(--accent);
     outline-offset: 2px;
-    border-radius: 3px;
+    border-radius: 2px;
 }
 table {
     border-collapse: collapse;
     width: 100%;
     font-size: 12.5px;
-    background: #fff;
+    background: var(--bg);
     table-layout: fixed;
 }
 th,
@@ -147,15 +141,16 @@ td {
     word-wrap: break-word;
 }
 th {
-    background: #f3f4f6;
+    background: #edeae4;
     text-align: left;
     font-weight: 600;
     font-size: 12px;
+    color: var(--fg);
 }
 tbody th[scope="row"],
 tbody td:first-child {
     font-weight: 600;
-    background: #fafafa;
+    background: #f2f0ec;
     text-align: left;
     position: sticky;
     left: 0;
@@ -166,12 +161,12 @@ thead th:first-child {
     position: sticky;
     left: 0;
     z-index: 2;
-    background: #f3f4f6;
+    background: #edeae4;
     box-shadow: 1px 0 0 var(--line);
 }
 tbody th[scope="row"] a,
 tbody td:first-child a {
-    color: #0b5fff;
+    color: var(--link);
     text-decoration: none;
 }
 tbody th[scope="row"] a:hover,
@@ -231,45 +226,30 @@ td.noend {
     text-align: center;
     font-size: 11.5px;
 }
-sup {
-    font-size: 9.5px;
-    font-weight: 600;
-    color: #000;
-    opacity: 0.7;
-}
 .scroll {
     overflow-x: auto;
 }
 .race-cands {
     font-size: 12px;
-    color: #333;
+    color: var(--fg);
     margin: 0 0 6px;
-    padding: 6px 10px;
-    background: #f7f9fc;
-    border-left: 3px solid var(--accent);
-    border-radius: 0 4px 4px 0;
-}
-.meta {
-    font-size: 11.5px;
-    color: #666;
-    margin-top: 14px;
-    line-height: 1.5;
+    padding: 5px 8px;
+    background: #f2f0ec;
+    border: 1px solid var(--line);
+    border-radius: 3px;
 }
 abbr[title] {
     text-decoration: underline dotted;
     text-underline-offset: 2px;
     cursor: help;
 }
-abbr[title] sup {
-    opacity: 1;
-}
 .filter-bar {
     position: sticky;
     top: 36px;
     z-index: 4;
-    background: #fff;
+    background: var(--bg);
     border-bottom: 1px solid var(--line);
-    padding: 8px 22px;
+    padding: 8px 28px;
     display: flex;
     align-items: center;
     gap: 10px;
@@ -285,7 +265,7 @@ abbr[title] sup {
     padding: 6px 10px;
     font-size: 13px;
     border: 1px solid var(--line);
-    border-radius: 6px;
+    border-radius: 4px;
     background: #fff;
     color: var(--fg);
 }
@@ -301,14 +281,14 @@ abbr[title] sup {
 .filter-bar button {
     background: none;
     border: 1px solid var(--line);
-    border-radius: 6px;
+    border-radius: 4px;
     padding: 4px 10px;
     font-size: 12px;
     color: var(--muted);
     cursor: pointer;
 }
 .filter-bar button:hover {
-    background: #f3f4f6;
+    background: #edeae4;
     color: var(--fg);
 }
 tr {
@@ -334,13 +314,13 @@ section.filter-empty::after {
 
 @media (max-width: 720px) {
     header {
-        padding: 12px 14px;
+        padding: 16px 16px 14px;
     }
     header h1 {
-        font-size: 17px;
+        font-size: 22px;
     }
     nav.toc {
-        padding: 8px 14px;
+        padding: 8px 16px;
         white-space: nowrap;
         overflow-x: auto;
         -webkit-overflow-scrolling: touch;
@@ -349,19 +329,19 @@ section.filter-empty::after {
     nav.toc strong {
         position: sticky;
         left: 0;
-        background: #fff;
+        background: var(--bg);
         padding-right: 8px;
-        box-shadow: 4px 0 6px -4px rgba(0, 0, 0, 0.15);
+        box-shadow: 4px 0 6px -4px rgba(0, 0, 0, 0.1);
     }
     .filter-bar {
-        padding: 8px 14px;
+        padding: 8px 16px;
         flex-wrap: wrap;
     }
     .filter-bar input {
         max-width: none;
     }
     main {
-        padding: 10px 14px 30px;
+        padding: 10px 16px 30px;
     }
     section {
         padding: 10px 12px;
@@ -390,13 +370,10 @@ section.filter-empty::after {
     header {
         background: #fff;
         color: #000;
-        border-bottom: 2px solid #000;
+        border-bottom: 1px solid #999;
     }
     header h1 {
         color: #000;
-    }
-    header .sub {
-        color: #333;
     }
     main {
         max-width: none;
@@ -404,9 +381,10 @@ section.filter-empty::after {
     }
     section {
         page-break-inside: avoid;
-        border: 1px solid #999;
+        border: 1px solid #ccc;
         box-shadow: none;
         margin: 8px 0;
+        background: #fff;
     }
     .scroll {
         overflow: visible;
@@ -414,6 +392,7 @@ section.filter-empty::after {
     table {
         font-size: 10px;
         page-break-inside: avoid;
+        background: #fff;
     }
     tbody th[scope="row"],
     tbody td:first-child,
@@ -424,10 +403,6 @@ section.filter-empty::after {
     a {
         color: #000;
         text-decoration: none;
-    }
-    .legend {
-        background: #fff;
-        border: 1px solid #999;
     }
 }
 

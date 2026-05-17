@@ -21,11 +21,11 @@
             <tr>
                 <td><a href="{{ e.url }}" target="_blank" rel="noopener">{{ e.org }}</a></td>
                 {%- if e.pick == "noend" %}
-                <td class="noend">{{ e.text }}{% if e.note %}<sup>{{ e.note }}</sup>{% endif %}</td>
+                <td class="noend">{{ e.text }}</td>
                 {%- elif e.pick == "multi" %}
-                <td class="cand" style="{{ e.style }}">{{ e.text }}{% if e.note %}<sup>{{ e.note }}</sup>{% endif %}</td>
+                <td class="cand" style="{{ e.style }}">{{ e.text }}</td>
                 {%- else %}
-                <td class="cand {{ e.pick }}">{{ e.text }}{% if e.note %}<sup>{{ e.note }}</sup>{% endif %}</td>
+                <td class="cand {{ e.pick }}">{{ e.text }}</td>
                 {%- endif %}
             </tr>
             {%- endfor %}

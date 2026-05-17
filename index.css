@@ -1,0 +1,221 @@
+:root {
+    --bg: #fafafa;
+    --fg: #1a1a1a;
+    --muted: #666;
+    --line: #d0d0d0;
+    --accent: #0b5fff;
+    --c1-bg: #cfe3ff;
+    --c1-fg: #0d3b80;
+    --c2-bg: #ffd9b3;
+    --c2-fg: #8a3d00;
+    --c3-bg: #e0c8f0;
+    --c3-fg: #4a1a6e;
+    --c4-bg: #b6e5db;
+    --c4-fg: #0a4a3f;
+    --c5-bg: #ffc8d6;
+    --c5-fg: #8a1240;
+    --c6-bg: #fff1a8;
+    --c6-fg: #5a4500;
+    --yes-bg: #a8e6b0;
+    --yes-fg: #0a4d18;
+    --no-bg: #ffb8b8;
+    --no-fg: #7a0d0d;
+    --none-bg: #f3f3f3;
+    --none-fg: #999;
+    --noend-bg: #eef0f3;
+    --noend-fg: #555;
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family:
+        -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--fg);
+    margin: 0;
+    padding: 0;
+    line-height: 1.45;
+}
+header {
+    background: #111;
+    color: #fff;
+    padding: 14px 22px;
+    border-bottom: 4px solid var(--accent);
+}
+header h1 {
+    margin: 0;
+    font-size: 20px;
+}
+header .sub {
+    font-size: 12px;
+    color: #bbb;
+    margin-top: 4px;
+}
+nav.toc {
+    background: #fff;
+    border-bottom: 1px solid var(--line);
+    padding: 8px 22px;
+    position: sticky;
+    top: 0;
+    z-index: 5;
+    font-size: 12.5px;
+}
+nav.toc a {
+    display: inline-block;
+    margin: 2px 10px 2px 0;
+    text-decoration: none;
+    color: var(--accent);
+}
+main {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 14px 22px 30px;
+}
+section {
+    background: #fff;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    padding: 12px 18px;
+    margin: 14px 0;
+}
+h2 {
+    font-size: 17px;
+    margin: 2px 0 8px;
+    border-bottom: 2px solid var(--accent);
+    padding-bottom: 4px;
+}
+h3 {
+    font-size: 14.5px;
+    margin: 16px 0 4px;
+}
+.legend {
+    font-size: 12px;
+    background: #fffbe6;
+    border: 1px solid #f1d97a;
+    border-radius: 6px;
+    padding: 8px 12px;
+    margin: 6px 0 10px;
+}
+.legend code {
+    background: #f1f1f1;
+    padding: 1px 5px;
+    border-radius: 3px;
+}
+.swatch {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 11.5px;
+    margin: 1px 3px;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 12.5px;
+    background: #fff;
+    table-layout: fixed;
+}
+th,
+td {
+    border: 1px solid var(--line);
+    padding: 5px 8px;
+    vertical-align: top;
+    word-wrap: break-word;
+}
+th {
+    background: #f3f4f6;
+    text-align: left;
+    font-weight: 600;
+    font-size: 12px;
+}
+tbody td:first-child {
+    font-weight: 600;
+    background: #fafafa;
+}
+tbody td:first-child a {
+    color: #0b5fff;
+    text-decoration: none;
+}
+tbody td:first-child a:hover {
+    text-decoration: underline;
+}
+td.cand {
+    font-weight: 700;
+    text-align: center;
+}
+td.c1 {
+    background: var(--c1-bg);
+    color: var(--c1-fg);
+}
+td.c2 {
+    background: var(--c2-bg);
+    color: var(--c2-fg);
+}
+td.c3 {
+    background: var(--c3-bg);
+    color: var(--c3-fg);
+}
+td.c4 {
+    background: var(--c4-bg);
+    color: var(--c4-fg);
+}
+td.c5 {
+    background: var(--c5-bg);
+    color: var(--c5-fg);
+}
+td.c6 {
+    background: var(--c6-bg);
+    color: var(--c6-fg);
+}
+td.yes {
+    background: var(--yes-bg);
+    color: var(--yes-fg);
+    font-weight: 700;
+    text-align: center;
+}
+td.no {
+    background: var(--no-bg);
+    color: var(--no-fg);
+    font-weight: 700;
+    text-align: center;
+}
+td.none {
+    background: var(--none-bg);
+    color: var(--none-fg);
+    font-weight: 700;
+    text-align: center;
+}
+td.noend {
+    background: var(--noend-bg);
+    color: var(--noend-fg);
+    font-style: italic;
+    text-align: center;
+    font-size: 11.5px;
+}
+sup {
+    font-size: 9.5px;
+    font-weight: 600;
+    color: #000;
+    opacity: 0.7;
+}
+.scroll {
+    overflow-x: auto;
+}
+.race-cands {
+    font-size: 12px;
+    color: #333;
+    margin: 0 0 6px;
+    padding: 6px 10px;
+    background: #f7f9fc;
+    border-left: 3px solid var(--accent);
+    border-radius: 0 4px 4px 0;
+}
+.meta {
+    font-size: 11.5px;
+    color: #666;
+    margin-top: 14px;
+    line-height: 1.5;
+}

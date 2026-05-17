@@ -24,15 +24,14 @@ npm run dev        # live-reload server while editing
 section: supes
 title: "District 4 — Sunset (ranked-choice)"
 candidates:
-  - id: sherrill
-    label: "Stephen Sherrill (D)"
+  - id: alan
+    label: "Alan Wong (incumbent, Lurie appointee)"
     color: c1
 endorsements:
   - org: SF Chronicle
     url: https://...
     pick: c1           # or: noend, multi
-    text: "Stephen Sherrill"
-    note: 2            # optional footnote (1=formal no-rec, 2=dual/ranked, 3=preliminary, 4=stale)
+    text: "Alan Wong"
 ```
 
 **Measures** (`votes` values are `yes`, `no`, or `none`):

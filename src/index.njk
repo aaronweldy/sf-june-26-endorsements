@@ -65,6 +65,15 @@
                         });
                         if (candClass) {
                             row.dataset.candidate = candClass;
+                        } else {
+                            // multi-endorsement: extract which candidate colors appear in the gradient style
+                            var style = td.getAttribute("style") || "";
+                            var matches = style.match(/--c(\d+)-bg/g) || [];
+                            if (matches.length) {
+                                row.dataset.candidates = matches.map(function (m) {
+                                    return m.slice(2, -3); // "--c1-bg" -> "c1"
+                                }).join(" ");
+                            }
                         }
                     });
                 });
@@ -90,9 +99,17 @@
                     if (locked) locked.classList.remove("locked");
                 }
 
+                function rowMatchesCand(row, candClass) {
+                    if (row.dataset.candidate === candClass) return true;
+                    if (row.dataset.candidates) {
+                        return row.dataset.candidates.split(" ").indexOf(candClass) !== -1;
+                    }
+                    return false;
+                }
+
                 function highlight(race, candClass) {
                     getRaceRows(race).forEach(function (row) {
-                        if (row.dataset.candidate === candClass) {
+                        if (rowMatchesCand(row, candClass)) {
                             row.classList.remove("row-dim");
                         } else {
                             row.classList.add("row-dim");

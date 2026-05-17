@@ -1,0 +1,99 @@
+section: supes
+title: District 4 — Sunset (ranked-choice)
+candidates:
+  - id: alan
+    label: Alan Wong (incumbent, Lurie appointee)
+    color: c1
+  - id: albert
+    label: Albert Chow
+    color: c2
+  - id: natalie
+    label: Natalie Gee
+    color: c3
+  - id: jeremy
+    label: Jeremy Greco
+    color: c4
+  - id: david
+    label: David E. Lee
+    color: c5
+endorsements:
+  - org: SF Chronicle
+    url: https://www.sfchronicle.com/projects/2026/california-primary-sf-election-endorsements/
+    pick: c1
+    text: Alan Wong
+  - org: Bay Area Reporter
+    url: https://www.ebar.com/story/166011
+    pick: c1
+    text: Alan Wong
+  - org: SF Bay Guardian
+    url: https://www.sfbg.com/2026/05/06/endorsements-for-the-june-2-eklection/
+    pick: multi
+    style: "background: linear-gradient( 120deg, var(--c3-bg) 0% 33%, var(--c5-bg) 33% 66%, var(--c2-bg) 66% 100% ); color: #222;"
+    text: Gee / Lee / Chow
+    note: 2
+  - org: SF Democratic Party
+    url: https://www.sfdems.org/endorsements/june-2-2026-primary-election
+    pick: c1
+    text: Alan Wong
+  - org: Harvey Milk LGBTQ Dem Club
+    url: http://www.milkclub.org/
+    pick: c3
+    text: Natalie Gee
+  - org: Alice B. Toklas LGBTQ Dem Club
+    url: https://alicebtoklas.org/2026endorsements
+    pick: c1
+    text: Alan Wong
+  - org: Edwin M. Lee Asian Pacific Dem Club
+    url: https://www.edleedems.org/june2026/
+    pick: multi
+    style: "background: linear-gradient( 120deg, var(--c1-bg) 0% 50%, var(--c2-bg) 50% 100% ); color: #222;"
+    text: "Wong #1 / Chow #2"
+    note: 2
+  - org: SF Women's Political Committee
+    url: https://sfwpc.org/endorsements-for-the-june-2026-primary-election/
+    pick: c3
+    text: Natalie Gee
+  - org: SF Young Democrats
+    url: https://www.sfyd.org/
+    pick: c3
+    text: Natalie Gee
+  - org: SF League of Pissed Off Voters
+    url: https://www.theleaguesf.org/
+    pick: c3
+    text: Natalie Gee
+  - org: GrowSF
+    url: https://growsf.org/voter-guide/
+    pick: c1
+    text: Alan Wong
+  - org: TogetherSF Action
+    url: https://tsfaction.org/blog/blueprint-sfs-june-2026-voter-guide
+    pick: multi
+    style: "background: linear-gradient( 120deg, var(--c1-bg) 0% 50%, var(--c2-bg) 50% 100% ); color: #222;"
+    text: Wong / Chow
+    note: 2
+  - org: SF YIMBY / YIMBY Action
+    url: https://sfyimby.org/endorsements/2026-primary-election/
+    pick: c1
+    text: Alan Wong
+  - org: SF Labor Council
+    url: https://www.sflaborcouncil.org/
+    pick: c3
+    text: Natalie Gee
+  - org: SEIU 1021
+    url: https://www.seiu1021.org/2026endorsements
+    pick: c3
+    text: Natalie Gee
+  - org: SF Tenants Union
+    url: https://sftu.org/endorsements/
+    pick: c3
+    text: Natalie Gee
+  - org: SF Republican Party
+    url: https://www.sfgop.org/2026-primary-endorsements
+    pick: c2
+    text: Albert Chow
+  - org: SF Green Party
+    url: https://sfgreenparty.org/endorsements
+    pick: multi
+    style: "background: linear-gradient( 120deg, var(--c3-bg) 0% 50%, var(--c4-bg) 50% 100% ); color: #222;"
+    text: Gee / Greco
+    note: 2

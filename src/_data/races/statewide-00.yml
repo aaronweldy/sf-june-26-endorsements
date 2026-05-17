@@ -1,0 +1,88 @@
+section: statewide
+title: Governor
+candidates:
+  - id: tom
+    label: Tom Steyer (D)
+    color: c1
+  - id: xavier
+    label: Xavier Becerra (D)
+    color: c2
+  - id: katie
+    label: Katie Porter (D)
+    color: c3
+  - id: matt
+    label: Matt Mahan (D)
+    color: c4
+  - id: tony
+    label: Tony Thurmond (D)
+    color: c5
+  - id: steve
+    label: Steve Hilton (R) / Chad Bianco (R)
+    color: c6
+endorsements:
+  - org: Bay Area Reporter
+    url: https://www.ebar.com/story/166011
+    pick: c3
+    text: Katie Porter
+  - org: SF Bay Guardian
+    url: https://www.sfbg.com/2026/05/06/endorsements-for-the-june-2-eklection/
+    pick: c1
+    text: Tom Steyer
+  - org: SF Democratic Party
+    url: https://www.sfdems.org/endorsements/june-2-2026-primary-election
+    pick: noend
+    text: No Consensus
+    note: 1
+  - org: California Democratic Party
+    url: https://cadem.org/
+    pick: noend
+    text: No Endorsement
+    note: 1
+  - org: Harvey Milk LGBTQ Dem Club
+    url: http://www.milkclub.org/
+    pick: c5
+    text: Tony Thurmond
+  - org: Alice B. Toklas LGBTQ Dem Club
+    url: https://alicebtoklas.org/2026endorsements
+    pick: c2
+    text: Xavier Becerra
+  - org: Edwin M. Lee Asian Pacific Dem Club
+    url: https://www.edleedems.org/june2026/
+    pick: c4
+    text: Matt Mahan
+  - org: SF Women's Political Committee
+    url: https://sfwpc.org/endorsements-for-the-june-2026-primary-election/
+    pick: c3
+    text: Katie Porter
+  - org: SF League of Pissed Off Voters
+    url: https://www.theleaguesf.org/
+    pick: c1
+    text: Tom Steyer
+  - org: GrowSF
+    url: https://growsf.org/voter-guide/
+    pick: c4
+    text: Matt Mahan
+  - org: SF YIMBY / YIMBY Action
+    url: https://sfyimby.org/endorsements/2026-primary-election/
+    pick: c1
+    text: Tom Steyer
+  - org: Sierra Club SF Bay
+    url: https://www.sierraclub.org/sfbay/2026-endorsements
+    pick: c1
+    text: Tom Steyer
+  - org: SF Labor Council
+    url: https://www.sflaborcouncil.org/
+    pick: multi
+    style: "background: linear-gradient( 120deg, var(--c3-bg) 0% 33%, var(--c1-bg) 33% 66%, #e8d8c0 66% 100% ); color: #222;"
+    text: Porter / Steyer / Villaraigosa
+    note: 2
+  - org: SEIU 1021
+    url: https://www.seiu1021.org/2026endorsements
+    pick: multi
+    style: "background: linear-gradient( 120deg, var(--c1-bg) 0% 50%, var(--c2-bg) 50% 100% ); color: #222;"
+    text: Steyer / Becerra
+    note: 2
+  - org: SF Green Party
+    url: https://sfgreenparty.org/endorsements
+    pick: c5
+    text: Butch Ware

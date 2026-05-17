@@ -1,0 +1,42 @@
+section: federal
+title: U.S. House — CA-15 (Mullin incumbent; covers part of southern SF + San Mateo)
+candidates:
+  - id: kevin
+    label: Kevin Mullin (D, incumbent)
+    color: c1
+  - id: charles
+    label: Charles Hoelter (R)
+    color: c6
+endorsements:
+  - org: Bay Area Reporter
+    url: https://www.ebar.com/story/166011
+    pick: c1
+    text: Kevin Mullin
+  - org: SF Democratic Party
+    url: https://www.sfdems.org/endorsements/june-2-2026-primary-election
+    pick: c1
+    text: Kevin Mullin
+  - org: California Democratic Party
+    url: https://cadem.org/
+    pick: c1
+    text: Kevin Mullin
+  - org: Edwin M. Lee Asian Pacific Dem Club
+    url: https://www.edleedems.org/june2026/
+    pick: c1
+    text: Kevin Mullin
+  - org: SF Women's Political Committee
+    url: https://sfwpc.org/endorsements-for-the-june-2026-primary-election/
+    pick: c1
+    text: Kevin Mullin
+  - org: SF Young Democrats
+    url: https://www.sfyd.org/
+    pick: c1
+    text: Kevin Mullin
+  - org: SF Labor Council
+    url: https://www.sflaborcouncil.org/
+    pick: c1
+    text: Kevin Mullin
+  - org: SF Republican Party
+    url: https://www.sfgop.org/2026-primary-endorsements
+    pick: c6
+    text: Charles Hoelter

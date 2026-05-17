@@ -1,0 +1,81 @@
+section: boe
+title: Phil Kim vs. Virginia Cheung vs. Brandee Marckmann
+candidates:
+  - id: phil
+    label: Phil Kim (incumbent, Board President)
+    color: c1
+  - id: virginia
+    label: Virginia Cheung
+    color: c2
+  - id: brandee
+    label: Brandee Marckmann
+    color: c3
+endorsements:
+  - org: SF Chronicle
+    url: https://www.sfchronicle.com/projects/2026/california-primary-sf-election-endorsements/
+    pick: c1
+    text: Phil Kim
+  - org: Bay Area Reporter
+    url: https://www.ebar.com/story/166011
+    pick: c1
+    text: Phil Kim
+  - org: SF Bay Guardian
+    url: https://www.sfbg.com/2026/05/06/endorsements-for-the-june-2-eklection/
+    pick: c3
+    text: Brandee Marckmann
+  - org: SF Democratic Party
+    url: https://www.sfdems.org/endorsements/june-2-2026-primary-election
+    pick: c1
+    text: Phil Kim
+  - org: Harvey Milk LGBTQ Dem Club
+    url: http://www.milkclub.org/
+    pick: c3
+    text: Brandee Marckmann
+  - org: Alice B. Toklas LGBTQ Dem Club
+    url: https://alicebtoklas.org/2026endorsements
+    pick: c1
+    text: Phil Kim
+  - org: Edwin M. Lee Asian Pacific Dem Club
+    url: https://www.edleedems.org/june2026/
+    pick: c1
+    text: Phil Kim
+  - org: SF Women's Political Committee
+    url: https://sfwpc.org/endorsements-for-the-june-2026-primary-election/
+    pick: c1
+    text: Phil Kim
+  - org: SF Young Democrats
+    url: https://www.sfyd.org/
+    pick: c1
+    text: Phil Kim
+  - org: SF League of Pissed Off Voters
+    url: https://www.theleaguesf.org/
+    pick: c2
+    text: Virginia Cheung
+  - org: GrowSF
+    url: https://growsf.org/voter-guide/
+    pick: c1
+    text: Phil Kim
+  - org: TogetherSF Action
+    url: https://tsfaction.org/blog/blueprint-sfs-june-2026-voter-guide
+    pick: c1
+    text: Phil Kim
+  - org: SF League of Conservation Voters
+    url: https://www.sflcv.org/endorsements
+    pick: c1
+    text: Phil Kim
+  - org: SEIU 1021
+    url: https://www.seiu1021.org/2026endorsements
+    pick: c3
+    text: Brandee Marckmann
+  - org: United Educators of SF
+    url: https://uesf.org/news/voting-guide-and-information/
+    pick: c2
+    text: Virginia Cheung
+  - org: SF Republican Party
+    url: https://www.sfgop.org/2026-primary-endorsements
+    pick: c1
+    text: Phil Kim
+  - org: SF Green Party
+    url: https://sfgreenparty.org/endorsements
+    pick: c2
+    text: Virginia Cheung

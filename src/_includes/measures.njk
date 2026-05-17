@@ -1,0 +1,45 @@
+<p style="font-size: 12.5px">
+    <strong>Prop A:</strong> $535M Earthquake Safety &amp;
+    Emergency Response Bond (2/3 needed).
+    <strong>Prop B:</strong> Lifetime term limits for Mayor
+    &amp; Supervisors. <strong>Prop C:</strong> Reduces business
+    tax / softens top-executive-pay tax (industry-backed).
+    <strong>Prop D:</strong> Increases business tax on companies
+    with high CEO-to-median-worker pay ratios (labor-backed). C
+    and D are competing — higher vote-getter prevails.
+</p>
+<div class="scroll">
+    <table>
+        <colgroup>
+            <col style="width: 26%" />
+            {%- for p in race.props %}
+            <col style="width: 18%" />
+            {%- endfor %}
+        </colgroup>
+        <thead>
+            <tr>
+                <th>Organization</th>
+                {%- for p in race.props %}
+                <th>{{ p.label }}</th>
+                {%- endfor %}
+            </tr>
+        </thead>
+        <tbody>
+            {%- for e in race.endorsements %}
+            <tr>
+                <td><a href="{{ e.url }}" target="_blank" rel="noopener">{{ e.org }}</a></td>
+                {%- for p in race.props %}
+                {%- set v = e.votes[p.id] %}
+                {%- if v == "none" %}
+                <td class="none">X</td>
+                {%- elif v == "yes" %}
+                <td class="yes">YES</td>
+                {%- elif v == "no" %}
+                <td class="no">NO</td>
+                {%- endif %}
+                {%- endfor %}
+            </tr>
+            {%- endfor %}
+        </tbody>
+    </table>
+</div>

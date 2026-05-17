@@ -1,0 +1,79 @@
+section: supes
+title: District 2 — Marina / Pacific Heights / Presidio / NoPa
+candidates:
+  - id: stephen
+    label: Stephen Sherrill (incumbent, Lurie appointee)
+    color: c1
+  - id: lori
+    label: Lori Brooke
+    color: c2
+  - id: jeremy
+    label: Jeremy Kirshner
+    color: c3
+endorsements:
+  - org: SF Chronicle
+    url: https://www.sfchronicle.com/projects/2026/california-primary-sf-election-endorsements/
+    pick: c1
+    text: Stephen Sherrill
+  - org: Bay Area Reporter
+    url: https://www.ebar.com/story/166011
+    pick: c1
+    text: Stephen Sherrill
+  - org: SF Bay Guardian
+    url: https://www.sfbg.com/2026/05/06/endorsements-for-the-june-2-eklection/
+    pick: c2
+    text: Lori Brooke
+  - org: SF Democratic Party
+    url: https://www.sfdems.org/endorsements/june-2-2026-primary-election
+    pick: c1
+    text: Stephen Sherrill
+  - org: Alice B. Toklas LGBTQ Dem Club
+    url: https://alicebtoklas.org/2026endorsements
+    pick: c1
+    text: Stephen Sherrill
+  - org: Edwin M. Lee Asian Pacific Dem Club
+    url: https://www.edleedems.org/june2026/
+    pick: c1
+    text: Stephen Sherrill
+  - org: SF Women's Political Committee
+    url: https://sfwpc.org/endorsements-for-the-june-2026-primary-election/
+    pick: c1
+    text: Stephen Sherrill
+  - org: SF Young Democrats
+    url: https://www.sfyd.org/
+    pick: c1
+    text: Stephen Sherrill
+  - org: SF League of Pissed Off Voters
+    url: https://www.theleaguesf.org/
+    pick: c2
+    text: Lori Brooke
+  - org: GrowSF
+    url: https://growsf.org/voter-guide/
+    pick: c1
+    text: Stephen Sherrill
+  - org: TogetherSF Action
+    url: https://tsfaction.org/blog/blueprint-sfs-june-2026-voter-guide
+    pick: multi
+    style: "background: linear-gradient( 120deg, var(--c1-bg) 0% 50%, var(--c2-bg) 50% 100% ); color: #222;"
+    text: Sherrill / Brooke
+    note: 2
+  - org: SF YIMBY / YIMBY Action
+    url: https://sfyimby.org/endorsements/2026-primary-election/
+    pick: c1
+    text: Stephen Sherrill
+  - org: Housing Action Coalition
+    url: https://housingactioncoalition.org/news/june-2026-endorsements
+    pick: c1
+    text: Stephen Sherrill
+  - org: Sierra Club SF Bay
+    url: https://www.sierraclub.org/sfbay/2026-endorsements
+    pick: c1
+    text: Stephen Sherrill
+  - org: SF League of Conservation Voters
+    url: https://www.sflcv.org/endorsements
+    pick: c1
+    text: Stephen Sherrill
+  - org: SF Tenants Union
+    url: https://sftu.org/endorsements/
+    pick: c2
+    text: Lori Brooke

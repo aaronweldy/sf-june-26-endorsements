@@ -1,0 +1,77 @@
+section: statewide
+title: Superintendent of Public Instruction (nonpartisan)
+candidates:
+  - id: nichelle
+    label: Nichelle Henderson
+    color: c1
+  - id: richard
+    label: Richard Barrera
+    color: c2
+  - id: josh
+    label: Josh Newman
+    color: c3
+  - id: anthony
+    label: Anthony Rendon
+    color: c4
+  - id: al
+    label: Al Muratsuchi
+    color: c5
+  - id: sonja
+    label: Sonja Shaw (R-leaning)
+    color: c6
+endorsements:
+  - org: SF Chronicle
+    url: https://www.sfchronicle.com/projects/2026/california-primary-sf-election-endorsements/
+    pick: c2
+    text: Richard Barrera
+  - org: Bay Area Reporter
+    url: https://www.ebar.com/story/166011
+    pick: c5
+    text: Al Muratsuchi
+  - org: SF Democratic Party
+    url: https://www.sfdems.org/endorsements/june-2-2026-primary-election
+    pick: noend
+    text: No Consensus
+    note: 1
+  - org: Harvey Milk LGBTQ Dem Club
+    url: http://www.milkclub.org/
+    pick: c1
+    text: Nichelle Henderson
+  - org: Alice B. Toklas LGBTQ Dem Club
+    url: https://alicebtoklas.org/2026endorsements
+    pick: noend
+    text: No Endorsement
+    note: 1
+  - org: Edwin M. Lee Asian Pacific Dem Club
+    url: https://www.edleedems.org/june2026/
+    pick: c4
+    text: Anthony Rendon
+  - org: SF Women's Political Committee
+    url: https://sfwpc.org/endorsements-for-the-june-2026-primary-election/
+    pick: c1
+    text: Nichelle Henderson
+  - org: SF Young Democrats
+    url: https://www.sfyd.org/
+    pick: c1
+    text: Nichelle Henderson
+  - org: SF League of Pissed Off Voters
+    url: https://www.theleaguesf.org/
+    pick: c2
+    text: Richard Barrera
+  - org: GrowSF
+    url: https://growsf.org/voter-guide/
+    pick: c3
+    text: Josh Newman
+  - org: SEIU 1021
+    url: https://www.seiu1021.org/2026endorsements
+    pick: c4
+    text: Anthony Rendon
+  - org: SF Republican Party
+    url: https://www.sfgop.org/2026-primary-endorsements
+    pick: c6
+    text: Sonja Shaw
+  - org: SF Green Party
+    url: https://sfgreenparty.org/endorsements
+    pick: c1
+    text: Frank Lara
+    note: 4

@@ -1,0 +1,66 @@
+section: statewide
+title: Treasurer
+candidates:
+  - id: eleni
+    label: Eleni Kounalakis (D)
+    color: c1
+  - id: anna
+    label: Anna Caballero (D)
+    color: c2
+  - id: jennifer
+    label: Jennifer Hawks (R)
+    color: c6
+  - id: glenn
+    label: Glenn Turner (G)
+    color: c5
+endorsements:
+  - org: SF Chronicle
+    url: https://www.sfchronicle.com/projects/2026/california-primary-sf-election-endorsements/
+    pick: c1
+    text: Eleni Kounalakis
+  - org: Bay Area Reporter
+    url: https://www.ebar.com/story/166011
+    pick: c2
+    text: Anna Caballero
+  - org: SF Democratic Party
+    url: https://www.sfdems.org/endorsements/june-2-2026-primary-election
+    pick: noend
+    text: No Consensus
+    note: 1
+  - org: Alice B. Toklas LGBTQ Dem Club
+    url: https://alicebtoklas.org/2026endorsements
+    pick: c1
+    text: Eleni Kounalakis
+  - org: Edwin M. Lee Asian Pacific Dem Club
+    url: https://www.edleedems.org/june2026/
+    pick: c1
+    text: Eleni Kounalakis
+  - org: SF Women's Political Committee
+    url: https://sfwpc.org/endorsements-for-the-june-2026-primary-election/
+    pick: c1
+    text: Eleni Kounalakis
+  - org: SF Young Democrats
+    url: https://www.sfyd.org/
+    pick: c1
+    text: Eleni Kounalakis
+  - org: SF League of Pissed Off Voters
+    url: https://www.theleaguesf.org/
+    pick: noend
+    text: No Endorsement
+    note: 1
+  - org: GrowSF
+    url: https://growsf.org/voter-guide/
+    pick: c1
+    text: Eleni Kounalakis
+  - org: Sierra Club SF Bay
+    url: https://www.sierraclub.org/sfbay/2026-endorsements
+    pick: c1
+    text: Eleni Kounalakis
+  - org: SF Republican Party
+    url: https://www.sfgop.org/2026-primary-endorsements
+    pick: c6
+    text: Jennifer Hawks
+  - org: SF Green Party
+    url: https://sfgreenparty.org/endorsements
+    pick: c5
+    text: Glenn Turner

@@ -1,0 +1,13 @@
+{
+  "name": "sf-june-26-endorsements",
+  "private": true,
+  "scripts": {
+    "build": "eleventy && cp build/index.html .",
+    "dev": "eleventy --serve"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1",
+    "cheerio": "^1.0.0",
+    "js-yaml": "^4.1.0"
+  }
+}

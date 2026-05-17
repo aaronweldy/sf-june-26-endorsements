@@ -1,0 +1,34 @@
+<h3>{{ race.title }}</h3>
+<p class="race-cands">
+    {%- for c in race.candidates %}
+    <span class="swatch {{ c.color }}" style="background: var(--{{ c.color }}-bg); color: var(--{{ c.color }}-fg)">{{ c.label }}</span>
+    {%- endfor %}
+</p>
+<div class="scroll">
+    <table>
+        <colgroup>
+            <col style="width: 30%" />
+            <col style="width: 70%" />
+        </colgroup>
+        <thead>
+            <tr>
+                <th>Organization</th>
+                <th>Endorsement</th>
+            </tr>
+        </thead>
+        <tbody>
+            {%- for e in race.endorsements %}
+            <tr>
+                <td><a href="{{ e.url }}" target="_blank" rel="noopener">{{ e.org }}</a></td>
+                {%- if e.pick == "noend" %}
+                <td class="noend">{{ e.text }}{% if e.note %}<sup>{{ e.note }}</sup>{% endif %}</td>
+                {%- elif e.pick == "multi" %}
+                <td class="cand" style="{{ e.style }}">{{ e.text }}{% if e.note %}<sup>{{ e.note }}</sup>{% endif %}</td>
+                {%- else %}
+                <td class="cand {{ e.pick }}">{{ e.text }}{% if e.note %}<sup>{{ e.note }}</sup>{% endif %}</td>
+                {%- endif %}
+            </tr>
+            {%- endfor %}
+        </tbody>
+    </table>
+</div>

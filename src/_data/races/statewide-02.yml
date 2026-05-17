@@ -1,0 +1,70 @@
+section: statewide
+title: Attorney General
+candidates:
+  - id: rob
+    label: Rob Bonta (D, incumbent)
+    color: c1
+  - id: michael
+    label: Michael Gates (R)
+    color: c6
+  - id: marjorie
+    label: Marjorie Mikels (G)
+    color: c5
+endorsements:
+  - org: Bay Area Reporter
+    url: https://www.ebar.com/story/166011
+    pick: c1
+    text: Rob Bonta
+  - org: SF Democratic Party
+    url: https://www.sfdems.org/endorsements/june-2-2026-primary-election
+    pick: c1
+    text: Rob Bonta
+  - org: California Democratic Party
+    url: https://cadem.org/
+    pick: c1
+    text: Rob Bonta
+  - org: Harvey Milk LGBTQ Dem Club
+    url: http://www.milkclub.org/
+    pick: c1
+    text: Rob Bonta
+  - org: Alice B. Toklas LGBTQ Dem Club
+    url: https://alicebtoklas.org/2026endorsements
+    pick: c1
+    text: Rob Bonta
+  - org: Edwin M. Lee Asian Pacific Dem Club
+    url: https://www.edleedems.org/june2026/
+    pick: c1
+    text: Rob Bonta
+  - org: SF Women's Political Committee
+    url: https://sfwpc.org/endorsements-for-the-june-2026-primary-election/
+    pick: c1
+    text: Rob Bonta
+  - org: SF League of Pissed Off Voters
+    url: https://www.theleaguesf.org/
+    pick: noend
+    text: No Recommendation
+    note: 1
+  - org: GrowSF
+    url: https://growsf.org/voter-guide/
+    pick: c1
+    text: Rob Bonta
+  - org: SF YIMBY / YIMBY Action
+    url: https://sfyimby.org/endorsements/2026-primary-election/
+    pick: c1
+    text: Rob Bonta
+  - org: Sierra Club SF Bay
+    url: https://www.sierraclub.org/sfbay/2026-endorsements
+    pick: c1
+    text: Rob Bonta
+  - org: SEIU 1021
+    url: https://www.seiu1021.org/2026endorsements
+    pick: c1
+    text: Rob Bonta
+  - org: SF Republican Party
+    url: https://www.sfgop.org/2026-primary-endorsements
+    pick: c6
+    text: Michael Gates
+  - org: SF Green Party
+    url: https://sfgreenparty.org/endorsements
+    pick: c5
+    text: Marjorie Mikels

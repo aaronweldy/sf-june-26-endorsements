@@ -1,0 +1,72 @@
+section: statewide
+title: Lieutenant Governor
+candidates:
+  - id: fiona
+    label: Fiona Ma (D)
+    color: c1
+  - id: michael
+    label: Michael Tubbs (D)
+    color: c2
+  - id: josh
+    label: Josh Fryday (D)
+    color: c3
+  - id: betty
+    label: Betty Yee (D)
+    color: c4
+  - id: oliver
+    label: Oliver Ma (D)
+    color: c5
+  - id: gloria
+    label: Gloria Romero (R)
+    color: c6
+endorsements:
+  - org: SF Chronicle
+    url: https://www.sfchronicle.com/projects/2026/california-primary-sf-election-endorsements/
+    pick: c2
+    text: Michael Tubbs
+  - org: SF Democratic Party
+    url: https://www.sfdems.org/endorsements/june-2-2026-primary-election
+    pick: noend
+    text: No Consensus
+    note: 1
+  - org: Harvey Milk LGBTQ Dem Club
+    url: http://www.milkclub.org/
+    pick: c2
+    text: Michael Tubbs
+  - org: Edwin M. Lee Asian Pacific Dem Club
+    url: https://www.edleedems.org/june2026/
+    pick: c1
+    text: Fiona Ma
+    note: 3
+  - org: SF Women's Political Committee
+    url: https://sfwpc.org/endorsements-for-the-june-2026-primary-election/
+    pick: c1
+    text: Fiona Ma
+  - org: SF Young Democrats
+    url: https://www.sfyd.org/
+    pick: c1
+    text: Fiona Ma
+  - org: SF League of Pissed Off Voters
+    url: https://www.theleaguesf.org/
+    pick: c5
+    text: Oliver Ma
+  - org: GrowSF
+    url: https://growsf.org/voter-guide/
+    pick: c3
+    text: Josh Fryday
+  - org: SF YIMBY / YIMBY Action
+    url: https://sfyimby.org/endorsements/2026-primary-election/
+    pick: c2
+    text: Michael Tubbs
+  - org: SEIU 1021
+    url: https://www.seiu1021.org/2026endorsements
+    pick: c2
+    text: Michael Tubbs
+  - org: SF Republican Party
+    url: https://www.sfgop.org/2026-primary-endorsements
+    pick: c6
+    text: Gloria Romero
+  - org: SF Green Party
+    url: https://sfgreenparty.org/endorsements
+    pick: c4
+    text: Alice Stek

@@ -1,0 +1,84 @@
+section: statewide
+title: Insurance Commissioner
+candidates:
+  - id: patrick
+    label: Patrick Wolff (D)
+    color: c1
+  - id: jane
+    label: Jane Kim (D)
+    color: c2
+  - id: ben
+    label: Ben Allen (D)
+    color: c3
+  - id: steven
+    label: Steven Bradford (D)
+    color: c4
+  - id: robert
+    label: Robert Howell (R)
+    color: c6
+  - id: eduardo
+    label: Eduardo Vargas (G)
+    color: c5
+endorsements:
+  - org: SF Chronicle
+    url: https://www.sfchronicle.com/projects/2026/california-primary-sf-election-endorsements/
+    pick: c1
+    text: Patrick Wolff
+  - org: Bay Area Reporter
+    url: https://www.ebar.com/story/166011
+    pick: c2
+    text: Jane Kim
+  - org: SF Bay Guardian
+    url: https://www.sfbg.com/2026/05/06/endorsements-for-the-june-2-eklection/
+    pick: c2
+    text: Jane Kim
+  - org: SF Democratic Party
+    url: https://www.sfdems.org/endorsements/june-2-2026-primary-election
+    pick: noend
+    text: No Consensus
+    note: 1
+  - org: Harvey Milk LGBTQ Dem Club
+    url: http://www.milkclub.org/
+    pick: c2
+    text: Jane Kim
+  - org: Alice B. Toklas LGBTQ Dem Club
+    url: https://alicebtoklas.org/2026endorsements
+    pick: noend
+    text: No Position
+    note: 1
+  - org: Edwin M. Lee Asian Pacific Dem Club
+    url: https://www.edleedems.org/june2026/
+    pick: c1
+    text: Patrick Wolff
+  - org: SF Women's Political Committee
+    url: https://sfwpc.org/endorsements-for-the-june-2026-primary-election/
+    pick: c2
+    text: Jane Kim
+  - org: SF Young Democrats
+    url: https://www.sfyd.org/
+    pick: c2
+    text: Jane Kim
+  - org: SF League of Pissed Off Voters
+    url: https://www.theleaguesf.org/
+    pick: c2
+    text: Jane Kim
+  - org: GrowSF
+    url: https://growsf.org/voter-guide/
+    pick: c1
+    text: Patrick Wolff
+  - org: Sierra Club SF Bay
+    url: https://www.sierraclub.org/sfbay/2026-endorsements
+    pick: c3
+    text: Ben Allen
+  - org: SEIU 1021
+    url: https://www.seiu1021.org/2026endorsements
+    pick: c2
+    text: Jane Kim
+  - org: SF Tenants Union
+    url: https://sftu.org/endorsements/
+    pick: c2
+    text: Jane Kim
+  - org: SF Green Party
+    url: https://sfgreenparty.org/endorsements
+    pick: c5
+    text: Eduardo Vargas

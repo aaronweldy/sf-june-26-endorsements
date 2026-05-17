@@ -1,0 +1,62 @@
+section: judicial
+title: Phoebe Maffei vs. Alexandra Pray
+candidates:
+  - id: phoebe
+    label: Phoebe Maffei (Asst. DA)
+    color: c1
+  - id: alexandra
+    label: Alexandra Pray (Deputy PD)
+    color: c2
+endorsements:
+  - org: SF Bay Guardian
+    url: https://www.sfbg.com/2026/05/06/endorsements-for-the-june-2-eklection/
+    pick: c2
+    text: Alexandra Pray
+  - org: SF Democratic Party
+    url: https://www.sfdems.org/endorsements/june-2-2026-primary-election
+    pick: c1
+    text: Phoebe Maffei
+  - org: Harvey Milk LGBTQ Dem Club
+    url: http://www.milkclub.org/
+    pick: c2
+    text: Alexandra Pray
+  - org: Alice B. Toklas LGBTQ Dem Club
+    url: https://alicebtoklas.org/2026endorsements
+    pick: c1
+    text: Phoebe Maffei
+  - org: Edwin M. Lee Asian Pacific Dem Club
+    url: https://www.edleedems.org/june2026/
+    pick: c1
+    text: Phoebe Maffei
+  - org: SF Women's Political Committee
+    url: https://sfwpc.org/endorsements-for-the-june-2026-primary-election/
+    pick: c1
+    text: Phoebe Maffei
+  - org: SF Young Democrats
+    url: https://www.sfyd.org/
+    pick: c1
+    text: Phoebe Maffei
+  - org: SF League of Pissed Off Voters
+    url: https://www.theleaguesf.org/
+    pick: c2
+    text: Alexandra Pray
+  - org: GrowSF
+    url: https://growsf.org/voter-guide/
+    pick: c1
+    text: Phoebe Maffei
+  - org: TogetherSF Action
+    url: https://tsfaction.org/blog/blueprint-sfs-june-2026-voter-guide
+    pick: c1
+    text: Phoebe Maffei
+  - org: SF Tenants Union
+    url: https://sftu.org/endorsements/
+    pick: c2
+    text: Alexandra Pray
+  - org: SF Republican Party
+    url: https://www.sfgop.org/2026-primary-endorsements
+    pick: c1
+    text: Phoebe Maffei
+  - org: SF Green Party
+    url: https://sfgreenparty.org/endorsements
+    pick: c2
+    text: Alexandra Pray

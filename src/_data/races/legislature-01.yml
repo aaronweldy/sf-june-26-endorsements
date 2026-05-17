@@ -1,0 +1,67 @@
+section: legislature
+title: State Assembly District 19 (western SF)
+candidates:
+  - id: catherine
+    label: Catherine Stefani (D, incumbent)
+    color: c1
+  - id: philip
+    label: Philip Wing (R)
+    color: c6
+endorsements:
+  - org: Bay Area Reporter
+    url: https://www.ebar.com/story/166011
+    pick: c1
+    text: Catherine Stefani
+  - org: SF Democratic Party
+    url: https://www.sfdems.org/endorsements/june-2-2026-primary-election
+    pick: c1
+    text: Catherine Stefani
+  - org: California Democratic Party
+    url: https://cadem.org/
+    pick: c1
+    text: Catherine Stefani
+  - org: Alice B. Toklas LGBTQ Dem Club
+    url: https://alicebtoklas.org/2026endorsements
+    pick: c1
+    text: Catherine Stefani
+  - org: Edwin M. Lee Asian Pacific Dem Club
+    url: https://www.edleedems.org/june2026/
+    pick: c1
+    text: Catherine Stefani
+  - org: SF Women's Political Committee
+    url: https://sfwpc.org/endorsements-for-the-june-2026-primary-election/
+    pick: c1
+    text: Catherine Stefani
+  - org: SF Young Democrats
+    url: https://www.sfyd.org/
+    pick: c1
+    text: Catherine Stefani
+  - org: SF League of Pissed Off Voters
+    url: https://www.theleaguesf.org/
+    pick: noend
+    text: No Endorsement
+    note: 1
+  - org: GrowSF
+    url: https://growsf.org/voter-guide/
+    pick: c1
+    text: Catherine Stefani
+  - org: SF YIMBY / YIMBY Action
+    url: https://sfyimby.org/endorsements/2026-primary-election/
+    pick: c1
+    text: Catherine Stefani
+  - org: Housing Action Coalition
+    url: https://housingactioncoalition.org/news/june-2026-endorsements
+    pick: c1
+    text: Catherine Stefani
+  - org: Sierra Club SF Bay
+    url: https://www.sierraclub.org/sfbay/2026-endorsements
+    pick: c1
+    text: Catherine Stefani
+  - org: SF Labor Council
+    url: https://www.sflaborcouncil.org/
+    pick: c1
+    text: Catherine Stefani
+  - org: SF Republican Party
+    url: https://www.sfgop.org/2026-primary-endorsements
+    pick: c6
+    text: Philip Wing

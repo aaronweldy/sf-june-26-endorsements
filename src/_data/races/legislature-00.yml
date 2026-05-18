@@ -1,11 +1,11 @@
 section: legislature
-title: State Assembly District 17 (eastern SF)
+title: State Assembly District 17
 candidates:
   - id: matt
-    label: Matt Haney (D, incumbent)
+    label: Matt Haney (D)
     color: c1
   - id: manuel
-    label: Manuel Noris-Barrera (R, write-in)
+    label: Manuel Noris-Barrera (R)
     color: c6
 endorsements:
   - org: Bay Area Reporter

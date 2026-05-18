@@ -1,8 +1,8 @@
 section: supes
-title: District 4 — Sunset (ranked-choice)
+title: District 4 — Sunset
 candidates:
   - id: alan
-    label: Alan Wong (incumbent, Lurie appointee)
+    label: Alan Wong
     color: c1
   - id: albert
     label: Albert Chow

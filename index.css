@@ -17,6 +17,8 @@
     --c5-fg: #5a1820;
     --c6-bg: #eee8c8;
     --c6-fg: #4a3800;
+    --c7-bg: #d8ecc4;
+    --c7-fg: #1e3a08;
     --yes-bg: #d8e8d0;
     --yes-fg: #1a4018;
     --no-bg: #eed8d8;
@@ -29,8 +31,15 @@
 * {
     box-sizing: border-box;
 }
+html {
+    overflow-x: clip;
+}
 body {
-    font-family: 'DM Sans', system-ui, -apple-system, sans-serif;
+    font-family:
+        "DM Sans",
+        system-ui,
+        -apple-system,
+        sans-serif;
     background: var(--bg);
     color: var(--fg);
     margin: 0;
@@ -43,13 +52,43 @@ header {
     padding: 22px 28px 18px;
     border-bottom: 1px solid #b0a898;
 }
+.header-inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
 header h1 {
     margin: 0;
-    font-family: 'Cormorant Garamond', Georgia, serif;
+    font-family: "Cormorant Garamond", Georgia, serif;
     font-size: 28px;
     font-weight: 700;
     letter-spacing: -0.01em;
     color: var(--fg);
+    text-align: center;
+}
+.header-links {
+    position: absolute;
+    right: 0;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+.header-links a {
+    color: var(--muted);
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    transition: color 0.15s;
+}
+.header-links a:hover {
+    color: var(--fg);
+}
+.header-links svg {
+    width: 22px;
+    height: 22px;
+    display: block;
+    fill: currentColor;
 }
 nav.toc {
     background: var(--bg);
@@ -59,6 +98,9 @@ nav.toc {
     top: 0;
     z-index: 5;
     font-size: 12.5px;
+    text-align: center;
+    white-space: nowrap;
+    overflow-x: auto;
 }
 nav.toc a {
     display: inline-block;
@@ -70,7 +112,7 @@ nav.toc a:hover {
     text-decoration: underline;
 }
 main {
-    max-width: 1500px;
+    max-width: 960px;
     margin: 0 auto;
     padding: 14px 28px 40px;
 }
@@ -91,7 +133,7 @@ caption {
     font-weight: 500;
 }
 h2 {
-    font-family: 'Cormorant Garamond', Georgia, serif;
+    font-family: "Cormorant Garamond", Georgia, serif;
     font-size: 22px;
     font-weight: 700;
     margin: 2px 0 10px;
@@ -100,7 +142,7 @@ h2 {
     letter-spacing: -0.01em;
 }
 h3 {
-    font-family: 'Cormorant Garamond', Georgia, serif;
+    font-family: "Cormorant Garamond", Georgia, serif;
     font-size: 17px;
     font-weight: 700;
     margin: 16px 0 4px;
@@ -115,7 +157,9 @@ h3 {
     margin: 1px 3px;
     cursor: pointer;
     user-select: none;
-    transition: transform 0.15s, box-shadow 0.15s;
+    transition:
+        transform 0.15s,
+        box-shadow 0.15s;
 }
 .swatch:hover {
     transform: scale(1.08);
@@ -200,6 +244,10 @@ td.c5 {
 td.c6 {
     background: var(--c6-bg);
     color: var(--c6-fg);
+}
+td.c7 {
+    background: var(--c7-bg);
+    color: var(--c7-fg);
 }
 td.yes {
     background: var(--yes-bg);
@@ -316,6 +364,14 @@ section.filter-empty::after {
     header {
         padding: 16px 16px 14px;
     }
+    .header-inner {
+        flex-direction: column;
+        gap: 6px;
+    }
+    .header-links {
+        position: static;
+        align-self: center;
+    }
     header h1 {
         font-size: 22px;
     }
@@ -330,8 +386,11 @@ section.filter-empty::after {
         position: sticky;
         left: 0;
         background: var(--bg);
-        padding-right: 8px;
-        box-shadow: 4px 0 6px -4px rgba(0, 0, 0, 0.1);
+        z-index: 10;
+        padding: 4px 8px;
+        box-shadow:
+            -16px 0 0 var(--bg),
+            4px 0 6px -4px rgba(0, 0, 0, 0.1);
     }
     .filter-bar {
         padding: 8px 16px;

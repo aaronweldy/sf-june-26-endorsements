@@ -2,7 +2,7 @@
   "name": "sf-june-26-endorsements",
   "private": true,
   "scripts": {
-    "build": "eleventy && cp build/index.html .",
+    "build": "eleventy && cp build/index.html . && cp src/static/* .",
     "dev": "eleventy --serve"
   },
   "devDependencies": {

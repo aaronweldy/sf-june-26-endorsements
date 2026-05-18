@@ -2,7 +2,7 @@ section: statewide
 title: Secretary of State
 candidates:
   - id: shirley
-    label: Shirley Weber (D, incumbent)
+    label: Shirley Weber (D)
     color: c1
   - id: don
     label: Don Wagner (R)

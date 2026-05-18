@@ -1,8 +1,8 @@
 section: legislature
-title: State Assembly District 19 (western SF)
+title: State Assembly District 19
 candidates:
   - id: catherine
-    label: Catherine Stefani (D, incumbent)
+    label: Catherine Stefani (D)
     color: c1
   - id: philip
     label: Philip Wing (R)

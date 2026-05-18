@@ -16,6 +16,9 @@ candidates:
   - id: tony
     label: Tony Thurmond (D)
     color: c5
+  - id: butch
+    label: Butch Ware (G)
+    color: c7
   - id: steve
     label: Steve Hilton (R) / Chad Bianco (R)
     color: c6
@@ -84,5 +87,5 @@ endorsements:
     note: 2
   - org: SF Green Party
     url: https://sfgreenparty.org/endorsements
-    pick: c5
+    pick: c7
     text: Butch Ware

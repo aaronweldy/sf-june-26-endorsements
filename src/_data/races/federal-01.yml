@@ -1,8 +1,8 @@
 section: federal
-title: U.S. House — CA-15 (Mullin incumbent; covers part of southern SF + San Mateo)
+title: U.S. House — CA-15
 candidates:
   - id: kevin
-    label: Kevin Mullin (D, incumbent)
+    label: Kevin Mullin (D)
     color: c1
   - id: charles
     label: Charles Hoelter (R)

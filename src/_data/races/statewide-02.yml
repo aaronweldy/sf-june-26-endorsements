@@ -2,7 +2,7 @@ section: statewide
 title: Attorney General
 candidates:
   - id: rob
-    label: Rob Bonta (D, incumbent)
+    label: Rob Bonta (D)
     color: c1
   - id: michael
     label: Michael Gates (R)

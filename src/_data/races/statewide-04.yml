@@ -2,7 +2,7 @@ section: statewide
 title: Controller
 candidates:
   - id: malia
-    label: Malia Cohen (D, incumbent)
+    label: Malia Cohen (D)
     color: c1
   - id: meghann
     label: Meghann Adams (P&F)

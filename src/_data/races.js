@@ -12,7 +12,7 @@ const SECTION_ORDER = [
   { id: "measures",   label: "San Francisco Local Ballot Measures (Props A–D)" },
 ];
 
-const VALID_COLORS = new Set(["c1","c2","c3","c4","c5","c6"]);
+const VALID_COLORS = new Set(["c1","c2","c3","c4","c5","c6","c7"]);
 const VALID_SECTIONS = new Set(SECTION_ORDER.map(s => s.id));
 const VALID_VOTES = new Set(["yes","no","none"]);
 

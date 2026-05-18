@@ -2,10 +2,10 @@ section: judicial
 title: Phoebe Maffei vs. Alexandra Pray
 candidates:
   - id: phoebe
-    label: Phoebe Maffei (Asst. DA)
+    label: Phoebe Maffei
     color: c1
   - id: alexandra
-    label: Alexandra Pray (Deputy PD)
+    label: Alexandra Pray
     color: c2
 endorsements:
   - org: SF Bay Guardian

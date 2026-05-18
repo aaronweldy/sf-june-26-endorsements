@@ -2,7 +2,7 @@ section: statewide
 title: Board of Equalization, District 2
 candidates:
   - id: sally
-    label: Sally Lieber (D, incumbent)
+    label: Sally Lieber (D)
     color: c1
   - id: john
     label: John Pimentel (D)
